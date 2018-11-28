@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.UI.MainWindow">
+  <grid id="27dc6" binding="panMainWindow" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="531" height="400"/>
+    </constraints>
+    <properties>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e8a62" binding="panelMainHeader" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="512" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="empty">
+          <title-color color="-16777216"/>
+          <size top="10" left="10" bottom="10" right="10"/>
+        </border>
+        <children>
+          <component id="9e82f" class="javax.swing.JLabel" binding="labTimer">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.2" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="14" style="1"/>
+              <foreground color="-4515304"/>
+              <text value="15:00"/>
+            </properties>
+          </component>
+          <grid id="54977" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.4" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="686a5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="16"/>
+                  <foreground color="-2039584"/>
+                  <text value="Adaptive Exam Engine"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="70f0a" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.4" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="409a9" class="javax.swing.JButton" binding="buttonAbout">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="4"/>
+                  <horizontalTextPosition value="4"/>
+                  <text value="About"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="79e9c" binding="panMainContent" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="512" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="43f5e" layout-manager="GridBagLayout">
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="d4e07" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font size="26"/>
+                  <text value="Loading ..."/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
